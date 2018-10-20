@@ -1,0 +1,139 @@
+body {
+    font-family:Century Gothic, Roboto,San Francisco,Helvetica Neue,Helvetica,Arial;
+   /* font-size: 15px;
+    line-height: 24px;*/
+    height: 200px;
+    background: linear-gradient(60deg,  rgb(171, 211, 230),rgb(248, 204, 174));
+    margin: 0;
+   /* background-color: #ffe9e1;*/
+  }
+  
+  .main-menu{
+      font-size:20px;
+      padding:3px;
+      border:1px solid #fcfcfc;
+  }
+  .main-menu li{
+      display:inline-block;
+      margin-right: -4px;
+     padding:10px 30px;
+  }
+  .main-menu a{
+    text-decoration: none;
+    margin-left: -1px;
+      display:block;
+     padding:10px 10px; 
+     background-color: rgb(236, 179, 141);
+     color:#fcfcfc;
+  }
+  .main-menu a:hover {
+    background-color: rgb(161, 134, 116);
+  }
+  #shade {
+    background-color:rgb(236, 179, 141);
+    height: 150px;
+    width: 60%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    margin-left: 20%;
+    box-shadow: 0 0 50px rgba(77, 74, 74, 0.7);
+    position: relative
+}
+#shade div{
+    text-align: center;
+}
+
+#luxShade {
+    position: absolute;
+    width: 20%;
+    height: 100px;
+    left: 0;
+    top: 0;
+    background: rgb(236, 179, 141);
+    margin: 0;
+}
+#staticShade {
+    width: 100%;
+    top: 0;
+
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#staticShade div{
+    width: 20%;
+    height: 100px;
+    background: rgb(236, 179, 141);
+    z-index: 0;
+    position: relative
+}
+
+#luxFont {
+    color: #FAFAFA;
+    font-family: Old_Style;
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 0;
+}
+
+#lensFont{
+    color: #FAFAFA;
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+    font-size: 20px;
+    font-family: Lens;
+}
+#mainName {
+    position: relative;
+    margin: 0;
+    text-shadow: 3px 8px 0 rgba(112, 103, 103, 0.7);
+    font-weight: bold;
+    color: #FAFAFA;
+    letter-spacing: 30pt;
+    word-spacing: 20pt;
+    font-size: 100px;
+    text-align: center;
+    font-family: Lens;
+    /*font-family: adine_kirnbergregular;*/
+}
+.shadeMain{
+    border: 2px solid #cccccc;
+    box-shadow: 10px 5px 5px #a3a0a0;
+    background-color: rgb(245, 236, 220);
+}
+.imgLeft{
+    float:left;
+    margin-left:60px;
+    margin-bottom: 30px;
+}
+.imgRight{
+    float:right;
+    margin-right:50px;
+    margin-bottom: 30px;
+}
+.right{
+    
+    float: right;
+    margin-right: 70px;
+    width:800px;
+    text-align: center;
+    margin-bottom: 80px;
+    
+}
+.left{
+    float: left;
+    margin-left:30px;
+    width:800px;
+   text-align: center;
+   margin-bottom: 80px;
+   
+}
+.mapText{
+    width:600px;
+    margin-right:50px;
+}
